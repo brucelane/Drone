@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{55C12CDB-D3DD-47E8-AF93-0B078741E1A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\MinimalUI">
+      <UniqueIdentifier>{F590F75F-0065-43AC-A75F-346E9A761EDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\MinimalUI\src">
+      <UniqueIdentifier>{A649CF05-ABB6-406D-84D3-3922225275BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\MinimalUI\include">
+      <UniqueIdentifier>{5E335D16-7D79-41E3-B931-BCDB23DC6F6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OpenCV">
+      <UniqueIdentifier>{10B1FDB9-6CDA-4E63-AAEB-6532B2520510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OpenCV\include">
+      <UniqueIdentifier>{7D4AA4E7-270F-41D1-9341-6E7BBAB2FE69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Warping">
+      <UniqueIdentifier>{E014CF81-3488-4CDD-BD60-0D67BE7807EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Warping\include">
+      <UniqueIdentifier>{0AB6094A-4F26-436C-8B0D-7BE808D89140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Warping\src">
+      <UniqueIdentifier>{FB844CA1-AF01-48B2-ACEB-67C3316652F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC">
+      <UniqueIdentifier>{F137A5D3-8A04-40C7-A716-A2E9E9724C20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src">
+      <UniqueIdentifier>{0E4601C1-A806-469F-922F-26456570DEFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src\ip">
+      <UniqueIdentifier>{4000F05E-BD73-4F36-A1C5-4EEFE8F90688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src\osc">
+      <UniqueIdentifier>{A4CC3A01-9AE2-4CD4-96D2-0D7483A04F0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src\ip\win32">
+      <UniqueIdentifier>{445F2A44-97CC-42C6-A564-E0F7FA5642B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OculusRift">
+      <UniqueIdentifier>{3B7144EF-6DDC-41F9-951A-E61A5E6E260E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OculusRift\src">
+      <UniqueIdentifier>{90E34654-DA38-4C60-998D-A7D59BC4877A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OculusRift\LibOVR">
+      <UniqueIdentifier>{B66BE7CB-5038-4415-A0A3-01F4DC15B1CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OculusRift\LibOVR\Include">
+      <UniqueIdentifier>{0240D7CD-E909-489A-A508-DBA8B05DF0F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OculusRift\LibOVR\src">
+      <UniqueIdentifier>{a4763247-7cc7-4f6b-aafb-fe72f2102d7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\DroneApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DroneApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\blocks\Cinder-MinimalUI\src\Button.cpp">
+      <Filter>Blocks\MinimalUI\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\blocks\Cinder-MinimalUI\include\Button.h">
+      <Filter>Blocks\MinimalUI\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\blocks\Cinder-MinimalUI\src\Label.cpp">
+      <Filter>Blocks\MinimalUI\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\blocks\Cinder-MinimalUI\include\Label.h">
+      <Filter>Blocks\MinimalUI\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\blocks\Cinder-MinimalUI\src\Slider.cpp">
+      <Filter>Blocks\MinimalUI\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\blocks\Cinder-MinimalUI\include\Slider.h">
+      <Filter>Blocks\MinimalUI\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\blocks\Cinder-MinimalUI\src\Graph.cpp">
+      <Filter>Blocks\MinimalUI\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\blocks\Cinder-MinimalUI\include\Graph.h">
+      <Filter>Blocks\MinimalUI\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\blocks\Cinder-MinimalUI\src\Image.cpp">
+      <Filter>Blocks\MinimalUI\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\blocks\Cinder-MinimalUI\include\Image.h">
+      <Filter>Blocks\MinimalUI\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\blocks\Cinder-MinimalUI\src\UIController.cpp">
+      <Filter>Blocks\MinimalUI\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\blocks\Cinder-MinimalUI\include\UIController.h">
+      <Filter>Blocks\MinimalUI\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\blocks\Cinder-MinimalUI\src\UIElement.cpp">
+      <Filter>Blocks\MinimalUI\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\blocks\Cinder-MinimalUI\include\UIElement.h">
+      <Filter>Blocks\MinimalUI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\Cinder-OpenCV\include\CinderOpenCV.h">
+      <Filter>Blocks\OpenCV\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\Cinder-Warping\include\Warp.h">
+      <Filter>Blocks\Warping\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\Cinder-Warping\include\WarpBilinear.h">
+      <Filter>Blocks\Warping\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\Cinder-Warping\include\WarpPerspective.h">
+      <Filter>Blocks\Warping\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\Cinder-Warping\include\WarpPerspectiveBilinear.h">
+      <Filter>Blocks\Warping\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\blocks\Cinder-Warping\src\Warp.cpp">
+      <Filter>Blocks\Warping\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\Cinder-Warping\src\WarpBilinear.cpp">
+      <Filter>Blocks\Warping\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\Cinder-Warping\src\WarpPerspective.cpp">
+      <Filter>Blocks\Warping\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\Cinder-Warping\src\WarpPerspectiveBilinear.cpp">
+      <Filter>Blocks\Warping\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\OSC\src\OscBundle.cpp">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\OSC\src\OscListener.cpp">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\OSC\src\OscMessage.cpp">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\OSC\src\OscSender.cpp">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\OSC\src\ip\IpEndpointName.cpp">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\OSC\src\osc\OscOutboundPacketStream.cpp">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\OSC\src\osc\OscPrintReceivedElements.cpp">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\OSC\src\osc\OscReceivedElements.cpp">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\OSC\src\osc\OscTypes.cpp">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\blocks\OSC\src\OscArg.h">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\OSC\src\OscBundle.h">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\OSC\src\OscListener.h">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\OSC\src\OscMessage.h">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\OSC\src\OscSender.h">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\OSC\src\ip\IpEndpointName.h">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\OSC\src\ip\NetworkingUtils.h">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\OSC\src\ip\PacketListener.h">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\OSC\src\ip\TimerListener.h">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\OSC\src\ip\UdpSocket.h">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\OSC\src\osc\MessageMappingOscPacketListener.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\OSC\src\osc\OscException.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\OSC\src\osc\OscHostEndianness.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\OSC\src\osc\OscOutboundPacketStream.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\OSC\src\osc\OscPacketListener.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\OSC\src\osc\OscPrintReceivedElements.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\OSC\src\osc\OscReceivedElements.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\OSC\src\osc\OscTypes.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\blocks\OSC\src\ip\win32\NetworkingUtils.cpp">
+      <Filter>Blocks\OSC\src\ip\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\OSC\src\ip\win32\UdpSocket.cpp">
+      <Filter>Blocks\OSC\src\ip\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\Cinder-OculusRift\src\CameraStereoHMD.cpp">
+      <Filter>Blocks\OculusRift\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\Cinder-OculusRift\src\OculusVR.cpp">
+      <Filter>Blocks\OculusRift\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\LibOVR\Include\OVRVersion.h">
+      <Filter>Blocks\OculusRift\LibOVR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibOVR\Include\OVR.h">
+      <Filter>Blocks\OculusRift\LibOVR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\Cinder-OculusRift\src\OculusVR.h">
+      <Filter>Blocks\OculusRift\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\Cinder-OculusRift\src\CameraStereoHMD.h">
+      <Filter>Blocks\OculusRift\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\LibOVR\Src\OVR_CAPI.cpp">
+      <Filter>Blocks\OculusRift\LibOVR\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LibOVR\Src\Kernel\OVR_Math.cpp">
+      <Filter>Blocks\OculusRift\LibOVR\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LibOVR\Src\Kernel\OVR_Alg.cpp">
+      <Filter>Blocks\OculusRift\LibOVR\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LibOVR\CommonSrc\Render\Render_Device.cpp">
+      <Filter>Blocks\OculusRift\LibOVR\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibOVR\CommonSrc\Render\Render_Device.h">
+      <Filter>Blocks\OculusRift\LibOVR\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
